@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+/* over all banner  */
+
+.hero {
+    background-image: linear-gradient(10deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(./assets/hero-bg.png);
+    height: 919px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child-contener {
+    height: 295px;
+    width: 1023px;
+    color: white;
+    text-align: center;
+
+}
+
+.child-contener>h1 {
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+
+.banner-headline {
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+.banner-slowgan {
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.buy-btn {
+    width: 279px;
+    height: 66px;
+    background-color: rgb(82, 195, 3);
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: .25s;
+
+    &:hover {
+        background-color: rgb(70, 163, 3);
+    }
+}
+
+
+/* product card section  */
+
+.card-box-contener {
+    width: 1320px;
+    height: 876px;
+    margin: 0 auto;
+    margin-top: 167px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+
+}
+
+.card-box-content {
+    display: flex;
+    gap: 24px;
+}
+
+.card-box-title {
+    width: 691px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-box-title>p {
+    font-size: 24px;
+}
+
+.card-box-title>h2 {
+    font-size: 48px;
+
+}
+
+.card {
+    width: 434px;
+    height: 525px;
+    text-align: center;
+    margin-top: 48px;
+
+}
+
+.card>img {
+    margin-bottom: 32px;
+}
+
+.card-title {
+    font-size: 24px;
+    padding: 14px 32px;
+    background-color: rgba(82, 195, 3, 0.15);
+    width: fit-content;
+    margin: auto;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.card-discount {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.card-tagline {
+    font-size: 18px;
+}
+
+.sowall-btn {
+    font-size: 20px;
+    padding: 21px 32px;
+    margin-top: 64px;
+    background-color: rgb(82, 195, 3);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    width: fit-content;
+
+}
